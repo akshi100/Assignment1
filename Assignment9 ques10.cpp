@@ -2,7 +2,7 @@
 int main()
 {
 	int unit;
-	float amount, total_amount, surcharge;
+	int amount, total_amount, surcharge;
 
 	printf("Enter Total Units Consumed: ");
 	scanf("%d",&unit);
@@ -27,7 +27,7 @@ int main()
 	surcharge = amount * 0.20;
 	total_amount = amount + surcharge;
 
-	printf("Electricity Bill = %.2f",total_amount);
+	printf("Electricity Bill = %d",total_amount);
 
 	return 0;
 }

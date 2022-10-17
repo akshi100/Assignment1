@@ -10,19 +10,19 @@ int main()
 
     if(num > 0)
     {
-        printf("Number is POSITIVE");
-     scanf("%d", &num); 
-	  {
-	   if(num % 10 == 0)
-	     printf("Number is divisible by 10");}
+   printf("Number is POSITIVE");
+scanf("%d", &num); 
+ {
+  if(num % 10 == 0)
+	printf("Number is divisible by 10");}
     }
     if(num < 0)
     {
-        printf("Number is NEGATIVE");
+    printf("Number is NEGATIVE");
     }
     if(num == 0)
     {
-        printf("Number is ZERO");
+    printf("Number is ZERO");
     }
 
     return 0;
